@@ -17,6 +17,7 @@ const addButtonEl = document.getElementById("add-button")
 const shoppingListEl = document.getElementById("shopping-list")
 
 addButtonEl.addEventListener("click", function(){
+    let inputValue = InputFieldEl.value
     
     push(shoppingListInDB, inputValue)
 
