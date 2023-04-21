@@ -3,7 +3,9 @@ html, body{
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
     background-color: #EEF0F4;
+    user-select: none;
 }
+
 
 .container{
     display: flex;
@@ -12,9 +14,27 @@ html, body{
     margin: 30px auto;
 }
 
+h1{
+    background-color: #FFFDF8;
+    border:0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 0;
+    box-shadow: 0px 1px 4px rgb(0, 0, 0,0.2);
+    flex-wrap: wrap;
+    flex-grow: 1;
+    text-align: center;
+    
+}
+
+
 img{
     width: 250px;
     margin: 0 auto;
+    border-radius: 8px;
 }
 
 input{
@@ -38,4 +58,37 @@ button{
     font-size: 20px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover{
+    background-color:#6363f8;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li{
+    background-color: #FFFDF8;
+    border:0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 0;
+    box-shadow: 0px 1px 4px rgb(0, 0, 0,0.2);
+    flex-wrap: wrap;
+    flex-grow: 1;
+    text-align: center;
+}
+
+ul li:hover{
+    background-color: #b2b2e2;
+    cursor: pointer;
 }
